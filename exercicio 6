@@ -1,0 +1,24 @@
+# include  < stdio.h >
+# include  < stdlib.h >
+
+int  main ()
+{
+    int n, pote;
+    int i = 1 ;
+    int soma = 0 ;
+
+    printf ( " Digite um numero: " );
+    scanf ( " % d " , & n);
+
+    while (i <= n) {
+        pote = i * i;
+        soma + = pote;
+        i + = 1 ;
+    }
+
+    printf ( " \ n O somatorio e: % d \ n " , soma);
+    sistema ( " pausa " );
+
+
+    return  0 ;
+}
