@@ -1,0 +1,33 @@
+/ *
+4
+Agora o aluno alugou um carro. Ele está preocupado com o limite de velocidade, mas não está muito longe do sistema de milhas por hora.
+Ele permanece sempre uma vez entre 80 e 100 quilômetros por hora (kph). Sabe-se que 1 milha tem aproximadamente 1.6 quilômetros.
+Crie um programa que leia a versão atual do carro em mph e escreva para a tela ACELERE, DESACELERE ou MANTENHA.
+* /
+// 80 Kph = 50 mph
+// 100 kph = 62,5 mph
+
+#include <stdio.h>
+int main (void)
+{
+		const float minima = 50;
+		const float maxima = 62,5;
+		flutuar a mph;
+		printf ("Voce esta a few mph?");
+ 	 	scanf ("% f", & mph);
+ 	 	
+ 	 	
+ 	 		if (mph> maxima) {
+          		printf ("Desacelere");
+        	}
+    		if (mph <mínimo) {
+          		printf ("Acelere");
+          	
+        	}
+        	outro
+    		{
+        		printf ("Manter");
+    		}
+        	
+  		return 0;
+}
