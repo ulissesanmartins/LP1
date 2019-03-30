@@ -1,0 +1,24 @@
+/ *
+3
+Um aluno de LP1 está indo para os Estados Unidos e quer comprar um celular novo. Ele não quer gastar mais
+do que mil reais. Está custando 3,17 reais. Faça um programa que leia o preço de uma
+e em caso afirmativo BOM NEGÓCIO.
+* /
+#include <stdio.h>
+
+int main (void) {
+  float num1;
+  const float num2 = 315.45741325;
+  
+
+  printf ("Digite o valor em dolar:");
+  scanf ("% f", & num1);
+  
+    if (num1> num2) {
+          printf ("Nao e um bom negocio");
+        }
+    if (num1 <= num2) {
+          printf ("Bom negocio");
+        }
+  return 0;
+}
