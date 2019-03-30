@@ -1,0 +1,18 @@
+/ *
+1
+Entrar no Linux
+Logar como "Convidado"
+Abra o Firefox em https://github.com/fsantanna-uerj/LP1/tree/master/Exs/ex-2.1
+Baixar o arquivo hello.c para a pasta / tmp /
+Abrir o Terminal
+Compilar e executar o programa:
+$ cd / tmp
+$ gcc hello.c -o hello.exe
+$ ./hello.exe
+* /
+#include <stdio.h>
+
+int main (void) {
+    printf ("Ola mundo! \ n");
+    return 0;
+}
